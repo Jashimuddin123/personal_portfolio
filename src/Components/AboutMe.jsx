@@ -27,21 +27,21 @@ const AboutMe = () => {
         </p>
 
         {/* automatic text content */}
-        <div className="flex">
+        <div className="flex gap-12">
             <div>
-                <h1 className="text-start">42+</h1>
-                <p>Complete Project</p>
+                <h1 className="text-start font-bold text-orange-500 text-3xl">42+</h1>
+                <p className="text-2xl font-bold">Complete Project</p>
             </div>
             <div>
-                <h1>15+</h1>
-                <p>Worldwide clients</p>
+                <h1 className="text-start font-bold text-orange-500 text-3xl">15+</h1>
+                <p className="text-2xl font-bold">Worldwide clients</p>
             </div>
             <div>
-                <h1>14+</h1>
-                <p>Client Satisfied</p>
+                <h1 className="text-start font-bold text-orange-500 text-3xl">14+</h1>
+                <p className="text-2xl font-bold">Client Satisfied</p>
             </div>
         </div>
-        <div className="navbar-end">
+        <div className=" my-10">
   <a className="btn p-6 bg-orange-500 text-white text-2xl hover:bg-black">
  Download CV
   </a>
