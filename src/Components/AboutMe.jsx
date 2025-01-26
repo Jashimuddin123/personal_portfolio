@@ -83,17 +83,15 @@ const AboutMe = () => {
         {/* Stats Section */}
         <div className="flex gap-12 mb-10">
           <div>
-            <h1
-              className="count text-start font-bold text-orange-500 text-3xl"
-            >
+            <h1 className="count text-start font-bold text-orange-500 text-3xl">
               0+
             </h1>
-            <p className="text-xl font-bold text-start text-gray-800">Complete Projects</p>
+            <p className="text-xl font-bold text-start text-gray-800">
+              Complete Projects
+            </p>
           </div>
           <div>
-            <h1
-              className="count text-start font-bold text-orange-500 text-3xl"
-            >
+            <h1 className="count text-start font-bold text-orange-500 text-3xl">
               0+
             </h1>
             <p className="text-xl text-start font-bold text-gray-800">
@@ -101,21 +99,24 @@ const AboutMe = () => {
             </p>
           </div>
           <div>
-            <h1
-              className="count text-start font-bold text-orange-500 text-3xl"
-            >
+            <h1 className="count text-start font-bold text-orange-500 text-3xl">
               0+
             </h1>
-            <p className="text-xl text-start font-bold text-gray-800">Client Satisfied</p>
+            <p className="text-xl text-start font-bold text-gray-800">
+              Client Satisfied
+            </p>
           </div>
         </div>
 
         {/* Download CV Button */}
-        <div className="navbar-end">
-  <a className="btn p-6 bg-orange-500 text-white text-2xl hover:bg-black">
-  Wownload CV
-  </a>
-</div>
+        <div className="navbar-start">
+          <a className="relative inline-block px-6 py-3 text-2xl font-semibold text-white bg-orange-500 overflow-hidden group">
+            <span className="absolute inset-0 bg-black translate-x-full group-hover:translate-x-0 transition-transform duration-300 ease-in-out"></span>
+            <span className="relative group-hover:translate-x-2 transition-transform duration-300 ease-in-out">
+              Download CV
+            </span>
+          </a>
+        </div>
       </div>
     </div>
   );
